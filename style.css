@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url('img/fundo2.jpg');
+    background-image: url('assets/fundo2.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -25,7 +25,7 @@ header * {
 }
 main {
     background-color: #e7e7e7;
-    background-image: url('img/thalles.png');
+    background-image: url('assets/thalles.png');
     background-size: auto 100px;
 }
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumario Extendido en HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .sumario {
+            margin-bottom: 20px;
+        }
+        .sumario a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .sumario a:hover {
+            text-decoration: underline;
+        }
+        .contenido h2, .contenido h3 {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sumario Extendido en HTML</h1>
+    <div class="sumario">
+        <h2>Tabla de Contenidos</h2>
+        <ul>
+            <li><a href="#seccion1">Sección 1: Introducción</a></li>
+            <li><a href="#seccion2">Sección 2: Marco Teórico</a>
+                <ul>
+                    <li><a href="#subseccion2-1">Subsección 2.1: Conceptos Básicos</a></li>
+                    <li><a href="#subseccion2-2">Subsección 2.2: Estudios Previos</a></li>
+                </ul>
+            </li>
+            <li><a href="#seccion3">Sección 3: Metodología</a></li>
+            <li><a href="#seccion4">Sección 4: Resultados</a>
+                <ul>
+                    <li><a href="#subseccion4-1">Subsección 4.1: Análisis de Datos</a></li>
+                    <li><a href="#subseccion4-2">Subsección 4.2: Interpretación de Resultados</a></li>
+                </ul>
+            </li>
+            <li><a href="#seccion5">Sección 5: Conclusiones</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+        <h2 id="seccion1">Sección 1: Introducción</h2>
+        <p>Esta es la introducción del documento. Aquí se presenta el tema y los objetivos principales.</p>
+
+        <h2 id="seccion2">Sección 2: Marco Teórico</h2>
+        <p>En esta sección se describe el marco teórico del estudio.</p>
+        
+        <h3 id="subseccion2-1">Subsección 2.1: Conceptos Básicos</h3>
+        <p>Descripción de los conceptos básicos relacionados con el tema del estudio.</p>
+        
+        <h3 id="subseccion2-2">Subsección 2.2: Estudios Previos</h3>
+        <p>Análisis de estudios previos y su relevancia para el presente trabajo.</p>
+
+        <h2 id="seccion3">Sección 3: Metodología</h2>
+        <p>Esta sección describe la metodología empleada en el estudio, incluyendo técnicas y procedimientos utilizados.</p>
+
+        <h2 id="seccion4">Sección 4: Resultados</h2>
+        <p>Presentación de los resultados obtenidos en el estudio.</p>
+        
+        <h3 id="subseccion4-1">Subsección 4.1: Análisis de Datos</h3>
+        <p>Detalle del análisis de datos realizados en el estudio.</p>
+        
+        <h3 id="subseccion4-2">Subsección 4.2: Interpretación de Resultados</h3>
+        <p>Interpretación y discusión de los resultados obtenidos.</p>
+
+        <h2 id="seccion5">Sección 5: Conclusiones</h2>
+        <p>Resumen de las conclusiones del estudio, implicaciones y posibles futuros trabajos.</p>
+    </div>
+</body>
+</html>
